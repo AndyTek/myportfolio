@@ -1,0 +1,4 @@
+User-Agent: googlebot
+Disallow: /admin/
+
+Sitemap: https://www.andreacaravani.com/sitemap.xml

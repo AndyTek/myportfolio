@@ -1,0 +1,744 @@
+p {
+    font-family: helvetica!important;
+    font-weight: 100;
+}
+
+input, textarea {
+    border-radius: 0!important;
+}
+
+#mailModal {
+    color: black;
+}
+
+.btn {
+    border-radius: 0px!important;
+}
+
+.btn:focus {
+    outline: none!important;
+}
+
+.btn-bg {
+    color: #ffffff;
+    background-color: #005F6B;
+    padding: 10px;
+    font-weight: 200;
+}
+
+.btn-hire {
+    background-color: #ffffff;
+    border: 1px solid #00b4cc;
+    color: #005f6b;
+    text-transform: uppercase;
+    padding: 18px;
+    font-weight: 800;
+}
+
+.btn-hire:hover {
+    background-color: #00b4cc;
+    border: 1px solid #005f6b;
+    color: #ffffff;
+}
+
+.btn-hire:active {
+    background-color: #00b4cc;
+}
+
+.mg-bottom-20 {
+    margin-bottom: 20px;
+}
+
+/*----------------------- header -----------------------*/
+
+#main-section{
+    padding-top: 180px!important;
+}
+
+nav.navbar.navbar-default.navbar-style {
+    font-family: helvetica;
+}
+
+#slide4 {
+    background: #005F6B;
+    color: white;
+    min-height: 300px;
+}
+
+#logo {
+    left: 20px;
+    
+}
+
+div#logo > img {
+    max-height: 40px;
+}
+
+.bg-darkgreen {
+    background: #008c9e;
+}
+
+#section-top{
+    /*background: url("../images/bgtop.gif");*/
+    background-image: url(../images/bgcose.gif);
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left top;
+}
+
+#maintitleheader {
+    width: 100%;
+    left: 0;
+    text-align: center;
+    position: absolute;
+}
+
+.overlayopacity {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.95);
+    width: 100%;
+    height: 450px;
+    left: 0;
+    top: 50px;
+}
+
+.style-jumbo {
+    background: none;
+}
+
+.container-contact {
+    height: 100%;
+}
+
+.navbar-style{
+    background-color: #00B4CC;
+    border-bottom: 10px solid #008C9E;
+    font-family: myFont;
+    color: white;
+    z-index: 9;
+    border: none;
+}
+
+.navbar-style a {
+    color: white!important;
+}
+
+.my-navbar-brand{
+    color: white!important;
+    font-family: myfont;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+/*------------------ whiatido ------------------*/
+
+#section-whatido{
+
+}
+
+.container-wid-foto{
+    background-color: #005F6B;
+}
+
+.wid-foto {
+    width: 200px;
+    height: 200px;
+}
+
+.wid-text{
+    color: white;
+    padding: 25px;
+}
+
+.wid-text > p {
+    font-size: 22px;
+}
+
+.box-wid {
+   height: 233px;
+}
+
+.inseide-box-wid h2 {
+    color: #00b4cc;
+}
+
+.inseide-box-wid {
+    background-color: #005F6B;
+    min-height: 240px;
+    color: white;
+    padding: 20px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+#socialmediabox{
+    padding-top: 64px;
+}
+
+.brd-ble {
+    border-top: 7px solid #00B4CC;
+    border-bottom: 7px solid #00B4CC;
+}
+
+#wwskill {
+    top: 0;
+    margin-top: -55px;
+    left: 50%;
+    margin-left: -55px;
+    position: absolute;
+}
+
+#wwskill img {
+    width: 110px;
+}
+
+#yyskill {
+    position: absolute;
+    margin-bottom: -55px;
+    left: 50%;
+    bottom: 0;
+    margin-left: -55px;
+}
+
+div#yyskill img {
+    width: 110px;
+}
+
+.corn_top_left{
+    border-radius: 0 15px 15px 15px;
+}
+
+.corn_top_right{
+    border-radius: 15px 0 15px 15px;
+}
+
+.corn_bot_right{
+    border-radius: 15px 15px 0 15px;
+}
+
+.corn_bot_left{
+    border-radius: 15px 15px 15px 0;
+}
+
+/* ---------------background ---------------*/
+
+#section-background{
+    background-image: url("../images/bgcose.gif");
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: white;
+    box-shadow: none;
+    height: 650px;
+    background-position: left top;
+}
+
+.container-palette{
+    background-image: url("../images/palette.gif");
+    background-size: cover;
+    height: 10px;
+}
+
+/*--------------- what ive done portfolio ---------------*/
+
+#section-whativedone{
+    background: transparent;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.title-wid{
+    color: #005F6B;
+}
+
+.title-wivd{
+    color: #ffffff;
+}
+
+.box-single-portfolio {
+    color: white;
+    min-height: 240px;
+}
+
+.insede-box-portfolio {
+    background-color: #FFFFFF;
+    min-height: 200px;
+    border: 7px solid #00B4CC;
+    margin-bottom: 35px;
+    background-size: cover;
+    background-position: center center;
+}
+
+section#section-whativedone > .container-fluid {
+    padding: 0;
+    width: 100%;
+}
+
+.left.carousel-control, .right.carousel-control {
+    background-image: none!important;
+}
+
+.section-box-wid{
+    min-height: 480px;
+    background-color: white;
+}
+
+/* ---------- filters list ---------- */
+
+#filter-list {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#filter-list li {
+    display: inline-block;
+    color: whitesmoke;
+    width: auto;
+    padding: 6px 10px;
+    margin-right: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 15px;
+}
+#filter-list li:hover {
+
+}
+#filter-list li.active {
+    font-weight: bold;
+    background: #00B4CC;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+    top: 44%;
+}
+
+/*-------------- contact ---------*/
+
+.title-spacer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.title-spacer {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container-contact{
+
+
+}
+
+
+.row-contact{
+    position: relative;
+    padding-top: 80px;
+    text-align: center;
+    height: 200px;
+}
+
+.row-contact i{
+    color: #fff;
+    font-size: 70px;
+}
+
+.row-contact i:hover {
+    color: #00b4cc;
+}
+/*--------------- footer ---------------*/
+
+#section-contact{
+    background: #005F6B;
+    color: white;
+    height: auto;
+}
+
+.container-whitestripe {
+    height: 30px;
+    background-color: white;
+}
+
+.deart-footer{
+    background-image: url("../images/freccia.png");
+    background-position: 50%;
+    width: 100%;
+    height: 60px;
+    background-size: cover;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.hvr-bubble-float-left:before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: calc(50% - 10px);
+    left: -3px;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #e1e1e1 transparent transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.modal-dialog-mod{
+    width: 80%;
+}
+
+.img-portfolio > img {
+    margin: 0 auto;
+}
+
+.name-work-style{
+
+}
+
+#title-work-modal {
+    color: black;
+}
+
+#desc-work-modal {
+    color: black;
+}
+
+#floatingArrows {
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    z-index: 999999999999999999999999999999
+}
+
+#floatingArrows a {
+    padding: 17px 20px;
+    background: #005F6B;
+    color: white;
+    border-radius: 0;
+}
+
+.jumbotron.text-center.style-jumbo img {
+    width: 30%;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.thin-font{
+    font-weight: 100;
+}
+
+.adj-top{
+    top: 10px;
+}
+
+/*---------- modal ----------*/
+
+.modal-header {
+    position: absolute;
+    width: 100%;
+    border: none
+        z-index: 99999999;
+    border-bottom: none;
+}
+
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+#link-work-modal a {
+    font-size: 14px;
+}
+
+#desc-work-modal-content {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.img-portfolio img {
+    width: 80%;
+   margin-bottom: 20px;
+}
+
+.top-mobileclose {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    padding: 10px;
+    width: 100%;
+    background: #005f6b;
+    text-align: right;
+}
+
+#button-close-work-modal {
+    border-radius: 0;
+    width: 70px;
+    padding: 12px!important;
+    background: #008c9e;
+}
+
+#section-top .navbar-toggle {
+    border: none;
+}
+
+#section-top .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #00a3b9;
+}
+
+nav.navbar.navbar-default.navbar-style {
+    font-family: helvetica;
+    position: absolute;
+    width: 100%;
+    border-radius: 0;
+}
+
+#contact-form {
+    height: 100%;
+}
+
+#contact-form .form-group {
+    margin-bottom: 25px;
+}
+
+div#headbar {
+    background-color: #00B4CC;
+    height: 40px;
+    position: absolute;
+    width: 100%;
+    z-index: 99999;
+    top: 0;
+    padding: 10px;
+}
+
+#closeMailModal {
+    padding: 8px;
+    color: white
+}
+
+div#response {
+    text-align: center;
+    color: #005f6b;
+}
+
+.modal-fullwidth-2 .modal-body{
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px){
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px){
+    .inseide-box-wid {
+        padding-bottom: 45px;
+        margin-bottom: 60px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+    .modal-dialog-mod {
+        width: auto;
+        margin: 0;
+        padding-top: 34px;
+    }
+
+    .img-portfolio img {
+        width: 100%;
+    }
+
+    #main-section {
+        padding-top: 140px!important;
+    }
+
+    .overlayopacity {
+        height: 350px;
+    }      
+    
+    #section-top {
+        min-height: 400px;
+    }
+
+    .insede-box-portfolio {
+        min-height: 300px;
+    }
+
+    #section-background{
+        background-size: auto 300px; 
+        height: 150px;
+    }
+
+    #section-top{
+        background-size: auto 500px; 
+    }
+
+    .row-hireme{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .modal-fullwidth-2 .modal-body{
+        min-height: 100vh;
+        padding-bottom: 80px;
+        padding-top: 60px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+    .wid-text {
+        color: white;
+        padding: 0;
+    }
+
+    .btn-hire {
+        width: 100%;
+    }
+
+    .row-contact {
+        padding-top: 65px;
+        height: 136px;
+    }
+
+    .row-contact i {
+        color: #fff;
+        font-size: 38px;
+    }
+
+    .wid-text > p {
+        font-size: 19px;
+    }
+
+    .inseide-box-wid h2 {
+        margin-top: 12px;
+    }
+    
+    #floatingArrows {
+        bottom: 0;
+        padding: 0;
+        background-color: #008c9e;
+    }
+    /* ----- responsive class modal  ----- */
+
+    .modal-fullwidth .modal-body {
+        padding: 0;
+        padding-bottom: 56px;
+    }
+
+    .modal-fullwith .modal-dialog {
+        margin: 0px !important;
+    }
+
+    #main-section {
+        padding-top: 100px!important;
+    }
+
+    .overlayopacity {
+        height: 231px;
+    }
+
+    #section-top {
+        min-height: 281px;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        background-color: #005f6b;
+    }
+
+    #section-background{
+        background-size: auto 300px; 
+        height: 150px;
+    }
+
+    #section-top{
+        background-size: auto 300px; 
+    }
+
+    #logo > img {
+        max-height: 30px!important;
+        margin-top: 5px;
+    }
+
+    #cont-submit {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .message-marginbot {
+        margin-bottom: 80px;
+    }
+
+    .modal-fullwidth-2 .modal-dialog {
+        margin: 0 auto;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+    
+}
+
